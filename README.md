@@ -61,6 +61,14 @@ The design includes schematic-level implementation, simulation, and synthesis an
 
 ![gate](gate.png)
 
+### analog_waveform
+
+![analog_waveform1](analog_waveform1.png)
+
+### analog_waveform
+
+![analog_waveform2](analog_waveform2.png)
+
 ---
 
 ## 🛠 Tools Used
