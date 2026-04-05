@@ -83,15 +83,15 @@ alu-project/
 
 ### 🔹 1-bit ALU Schematic
 
-![1bit](cadence/1bit/schematic.png)
+![1bit](schematic_1bit.png)
 
 ### 🔹 4-bit ALU Schematic
 
-![4bit](cadence/4bit/schematic.png)
+![4bit](schematic.png)
 
 ### 🔹 Simulation Waveform
 
-![waveform](cadence/4bit/waveform.png)
+![waveform](waveform.png)
 
 ---
 
@@ -99,15 +99,15 @@ alu-project/
 
 ### Area Report
 
-![area](synthesis/area.png)
+![area](area.png)
 
 ### Power Report
 
-![power](synthesis/power.png)
+![power](power.png)
 
 ### Gate Report
 
-![gate](synthesis/gate.png)
+![gate](gate.png)
 
 ### analog_waveform
 
