@@ -85,14 +85,15 @@ alu-project/
 
 ![1bit](schematic_1bit.png)
 
-### Synthesis 
-
-![synthesis](synthesis.png)
-
 
 ### 🔹 4-bit ALU Schematic
 
 ![4bit](schematic.png)
+
+### Synthesis 
+
+![synthesis](synthesis.png)
+
 
 ### Symbol
 
