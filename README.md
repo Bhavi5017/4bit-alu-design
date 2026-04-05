@@ -89,6 +89,18 @@ alu-project/
 
 ![4bit](schematic.png)
 
+### Synthesis 
+
+![synthesis](synthesis.png)
+
+### Testbench
+
+![Testbench](testbench.png)
+
+### Symbol
+
+![Symbol](Symbol.png)
+
 ### 🔹 Simulation Waveform
 
 ![waveform](waveform.png)
