@@ -62,11 +62,13 @@ alu-project/
 ├── cadence/
 │   ├── 1bit/
 │   │   ├── schematic.png
-│   │   └── waveform.png
+│   │   
 │   │
 │   ├── 4bit/
 │   │   ├── schematic.png
+|   |   |__ symbol.png
 │   │   └── waveform.png
+|   |   |__ analog_waveform.png
 │
 ├── synthesis/
 │   ├── area.png
