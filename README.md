@@ -99,7 +99,7 @@ alu-project/
 
 ### Symbol
 
-![Symbol](Symbol.png)
+![Symbol](symbol.png)
 
 
 ### Testbench
