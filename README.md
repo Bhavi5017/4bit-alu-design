@@ -26,7 +26,9 @@ The design includes schematic-level implementation, simulation, and synthesis an
 * area.png → Area report
 * power.png → Power report
 * timing.png → Timing report
-
+* gate.png → Gate report
+* analog_waveform1.png
+* analog_waveform2.png
 ---
 
 ## 📷 Results
@@ -54,6 +56,10 @@ The design includes schematic-level implementation, simulation, and synthesis an
 ### Timing
 
 ![timing](timing.png)
+
+### Gate
+
+![gate](gate.png)
 
 ---
 
