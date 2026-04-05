@@ -2,64 +2,112 @@
 
 ## 📌 Overview
 
-This project implements a 4-bit ALU using Verilog and Cadence tools.
-The design includes schematic-level implementation, simulation, and synthesis analysis.
+This project implements a **4-bit Arithmetic Logic Unit (ALU)** using both **Verilog (RTL)** and **Cadence Virtuoso (schematic design)**.
+
+The design follows a complete VLSI flow:
+
+* Gate-level design (1-bit ALU)
+* Hierarchical design (4-bit ALU)
+* RTL implementation
+* Simulation & waveform verification
+* Synthesis (area, power, timing)
 
 ---
 
 ## ⚙️ Features
 
-* 1-bit ALU using AND, OR, XOR, NOT gates
-* 4-bit ALU built using 1-bit blocks
-* Verilog RTL implementation
-* Cadence Virtuoso schematic design
-* Synthesis using Cadence Genus
+* 1-bit ALU using:
+
+  * AND, OR, XOR, NOT gates
+  * Multiplexer-based selection
+* 4-bit ALU built using 1-bit ALU blocks
+* Supports multiple operations:
+
+  * Addition
+  * Subtraction
+  * AND
+  * OR
+* Fully verified using:
+
+  * Cadence Virtuoso (schematic)
+  * Simulation waveforms
+  * Synthesis reports
 
 ---
 
-## 📂 Files
+## 🧠 Design Architecture
 
-* alu.v → RTL design
-* alu_tb.v → Testbench
-* schematic.png → Design schematic
-* waveform.png → Simulation waveform
-* area.png → Area report
-* power.png → Power report
-* timing.png → Timing report
-* gate.png → Gate report
-* analog_waveform1.png
-* analog_waveform2.png
+### 🔹 1-bit ALU
+
+* Built using basic logic gates
+* Multiplexer selects operation
+* Forms building block of 4-bit ALU
+
+### 🔹 4-bit ALU
+
+* Combination of four 1-bit ALUs
+* Handles 4-bit input operations
+
+---
+
+## 📂 Project Structure
+
+```
+alu-project/
+│
+├── verilog/
+│   ├── alu.v
+│   └── alu_tb.v
+│
+├── cadence/
+│   ├── 1bit/
+│   │   ├── schematic.png
+│   │   └── waveform.png
+│   │
+│   ├── 4bit/
+│   │   ├── schematic.png
+│   │   └── waveform.png
+│
+├── synthesis/
+│   ├── area.png
+│   ├── power.png
+│   ├── timing.png
+│   └── gate.png
+│
+└── README.md
+```
+
 ---
 
 ## 📷 Results
 
-### Schematic
+### 🔹 1-bit ALU Schematic
 
-![schematic](schematic.png)
+![1bit](cadence/1bit/schematic.png)
 
-### Waveform
+### 🔹 4-bit ALU Schematic
 
-![waveform](waveform.png)
+![4bit](cadence/4bit/schematic.png)
+
+### 🔹 Simulation Waveform
+
+![waveform](cadence/4bit/waveform.png)
 
 ---
 
 ## 📊 Synthesis Results
 
-### Area
+### Area Report
 
-![area](area.png)
+![area](synthesis/area.png)
 
-### Power
+### Power Report
 
-![power](power.png)
+![power](synthesis/power.png)
 
-### Timing
+### Gate Report
 
-![timing](timing.png)
-
-### Gate
-
-![gate](gate.png)
+![gate](synthesis/gate.png)
 
 ### analog_waveform
 
@@ -71,13 +119,27 @@ The design includes schematic-level implementation, simulation, and synthesis an
 
 ---
 
-## 🛠 Tools Used
+## 🔬 Tools Used
 
-* Verilog HDL
 * Cadence Virtuoso
-* Cadence Genus
+* Cadence Genus (Synthesis)
+* Verilog HDL
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates a complete digital design flow from:
+
+* Basic gate-level design
+  → RTL implementation
+  → Simulation
+  → Synthesis analysis
+
+It highlights hierarchical design and practical VLSI implementation.
 
 ---
 
 ## 👨‍💻 Author
+
 Bhavitha N
